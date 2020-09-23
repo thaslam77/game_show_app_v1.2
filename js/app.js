@@ -137,7 +137,7 @@ function newGame() {
     }
     missed = 0;
     
-    getRandomPhraseAsArray(phrases);
+    phraseArray = getRandomPhraseAsArray(phrases);
     addPhraseToDisplay(phraseArray);
     // console.log(`${phraseArray}`);
 
